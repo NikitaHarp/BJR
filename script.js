@@ -40,7 +40,7 @@ shopLink.addEventListener('click', (e) => {
 
   isScrolling = true;
 
-  smoothScrollTo(shop.offsetTop, 1200);
+  smoothScrollTo(shop.offsetTop, 1600);
 
   setTimeout(() => {
     isScrolling = false;
@@ -62,7 +62,7 @@ window.addEventListener('wheel', (e) => {
       isScrolling = true;
 
       
-    smoothScrollTo(shop.offsetTop, 1200);
+    smoothScrollTo(shop.offsetTop, 1600);
       
 
       setTimeout(() => {
@@ -72,5 +72,6 @@ window.addEventListener('wheel', (e) => {
   }
 
 }, { passive: false });
+
 
 
